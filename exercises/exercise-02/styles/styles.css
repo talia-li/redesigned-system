@@ -1,0 +1,39 @@
+html,body{height:100%
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body {
+    font-family: "Railway", "Arial", sans-serif;
+  }
+  .neon {
+    color: #00d200;
+    text-decoration: none;
+  }
+  .container {
+    background-color: green;
+    height: 100%;
+  }
+  .register {
+    text-transform: uppercase;
+  }
+  
+  .sidebar {
+    background-color: yellow;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .main {
+    background-color: pink;
+    display: inline-block;
+    width: 70%;
+    float: left;
+    height: 100%;
+  }
+  
