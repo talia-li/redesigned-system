@@ -14,7 +14,7 @@ body {
     text-decoration: none;
   }
   .container {
-    background-color: green;
+    background-color: rgba(252, 182, 90, 0.774);
     height: 100%;
   }
   .register {
@@ -30,10 +30,13 @@ body {
   }
   
   .main {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.226);
     display: inline-block;
     width: 70%;
     float: left;
     height: 100%;
+    margin: 10;
+    padding:0;
+    box-sizing:border-box
   }
   
