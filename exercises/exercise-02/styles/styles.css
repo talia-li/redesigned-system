@@ -23,8 +23,8 @@ body {
   
   .sidebar {
     background-color: rgb(0, 0, 0);
-    color:rgb(255, 192, 203)
     display: inline-block;
+    float: right;
     width: 50%;
     height: 100%;
   }
