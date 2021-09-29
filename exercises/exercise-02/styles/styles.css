@@ -22,7 +22,7 @@ body {
   }
   
   .sidebar {
-    background-color: yellow;
+    background-color: rgb(60, 26, 252);
     display: inline-block;
     float: left;
     width: 50%;
