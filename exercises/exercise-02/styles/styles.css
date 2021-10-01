@@ -14,7 +14,7 @@ body {
     text-decoration: none;
   }
   .container {
-    background-color: rgba(252, 182, 90, 0.774);
+    background-color: rgb(255, 255, 255);
     height: 100%;width:100%;
   }
   .register {
@@ -26,7 +26,7 @@ body {
     display: inline-table;
     float: right;
     width: 50%;
-    height: top-200;
+    height: 100%;
   }
   
   .main {
