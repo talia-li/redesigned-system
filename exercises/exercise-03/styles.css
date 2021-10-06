@@ -1,0 +1,54 @@
+/* reset to remove html element styling*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+.container{
+    background-color: lemonchiffon;
+    height:100%
+}
+header{
+    height:20%;
+    background-color: lightpink;
+}
+
+nav,footer{
+    height: 10%;
+    background-color: lightsalmon;
+}
+main{
+    height: 60%;
+    background-color: lightblue;
+}
+
+aside{
+    width: 20%;
+    height:100%;
+    background-color: lightslategray;
+    float:left;
+    display: inline-block;
+
+}
+
+.box{
+    position:relative;
+    top: 100px;
+    right: 0;
+    height: 40%;
+    
+}
+
+section{
+    width:60%;
+    height:100%;
+    background-color: mediumaquamarine;
+    display: inline-block;
+    float:left;
+}
