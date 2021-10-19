@@ -1,16 +1,37 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body{
-    background-color: mediumorchid;
+    background-color: mediumorchid;height:100%;
 }
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content:center;
+    align-items:center;
+
 }
 
 .item{
+    flex-grow:1;
+    display:flex;
     margin:5px;
     width:100px;
     height:100px;
     background-color: mediumaquamarine;
+}
+
+.item:nth-child(2) {
+    flex-grow:3;
+    align-self:flex-end;
+}
+
+@media (max-width:600px){
+    .Home{
+        background:green;
+    }
 }
