@@ -11,12 +11,15 @@ body {
     font-family: "Railway", "Arial", sans-serif;
   }
     .container {
-    background-color: rgba(252, 182, 90, 0.774);
     height: 100%;width:100%;
   }
   .header{
     width:100%;
     display:inline-flex;
+    align-items: center
+    ;
+    height:10%;
+    background-color: beige;
   }
    
   .pink {
@@ -27,20 +30,22 @@ body {
   .register {
     text-transform: uppercase;
   }
-  
-  .sidebar {
-    background-color: rgb(0, 0, 0);
-    display: inline-table;
-    float: right;
-    width: 50%;
-    height: 100%;
-  }
-  
   .main {
     background-color: rgb(250, 225, 229);
-    display: inline-block;
+    display: flex;
+    text-size-adjust: 20pt;
+    justify-content: flex-start;
     width: 50%;
     float: left;
+    align-items:center;
+    height: 100%;
+  }
+    
+  .sidebar {
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    float: right;
+    width: 50%;
     height: 100%;
   }
   
