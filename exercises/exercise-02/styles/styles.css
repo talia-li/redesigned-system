@@ -1,26 +1,29 @@
-HEAD
-body {
-    background-color: lemonchiffon
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 html,body{height:100%; width:100%
 }
 
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box
-}
 body {
     font-family: "Railway", "Arial", sans-serif;
   }
-  .neon {
-    color: rgb(250, 225, 229);
-    text-decoration: none;
-  }
-  .container {
+    .container {
     background-color: rgba(252, 182, 90, 0.774);
     height: 100%;width:100%;
   }
+  .header{
+    width:100%;
+    display:inline-flex;
+  }
+   
+  .pink {
+    color: rgb(250, 225, 229);
+    text-decoration: none;
+  }
+
   .register {
     text-transform: uppercase;
   }
@@ -39,8 +42,5 @@ body {
     width: 50%;
     float: left;
     height: 100%;
-  }
-  .header{
-    width:100%;
   }
   
