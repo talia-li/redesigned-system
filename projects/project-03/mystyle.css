@@ -1,0 +1,36 @@
+
+
+ .nav{
+     
+    background-color: rgba(221, 202, 202,0.5);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+ 
+    top: 10px;
+    outline:green dotted thick;
+    
+}
+.nav p {
+  text-align:center;
+  font-size:40px;
+  font-family:"Times New Roman", Times, serif;
+       
+}
+.box {
+ width: 3000px;
+ height: 2000px;
+ margin: 100px auto;
+ border: 1px solid #000;
+}
+
+
+
+.img1 {position: absolute;top: 350px; right: 80px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.img2 {position: absolute;top: 1000px; right: 50px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.img3 {position: absolute;top: 1000px; left: 600px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.hotspot1:hover + .img1 {display: block;}
+.hotspot2:hover + .img2 {display: block;}
+.hotspot3:hover + .img3 {display: block;}
+
+
