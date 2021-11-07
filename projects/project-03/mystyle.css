@@ -1,27 +1,53 @@
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+            url('Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+            url('Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('Bold/Sporting_Grotesque-Bold_web.eot');
+    src:    url('Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
+            url('Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+            url('Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+            url('Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
  .nav{
-     
-    background-color: rgba(221, 202, 202,0.5);
-    height: 100px;
-    width: 100%;
+   
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100px;
     position: fixed;
  
-    top: 10px;
-    outline:green dotted thick;
+    top: 0px;
+    outline:rgb(0, 0, 0) solid 2px;
     
 }
 .nav p {
   text-align:center;
-  font-size:40px;
-  font-family:"Times New Roman", Times, serif;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  top:100px;
+  font: size 20px;
+  font-family:'Sporting Grotesque_Bold',monospace;
        
 }
 .box {
  width: 3000px;
  height: 2000px;
- margin: 100px auto;
+ margin: 0px auto;
  border: 1px solid #000;
+ left:100px;
 }
 
 
