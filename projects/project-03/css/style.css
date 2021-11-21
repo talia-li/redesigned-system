@@ -1,0 +1,77 @@
+
+  @font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+            url('Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+            url('Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('Bold/Sporting_Grotesque-Bold_web.eot');
+    src:    url('Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
+            url('Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+            url('Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+            url('Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ul li a {
+    
+    color: #fff;
+    font-family:'Sporting Grotesque_Bold',monospace;
+    text-decoration:none;
+    padding: 20px 1;
+}
+ul{
+    float:left;
+    position: fixed;
+}
+  .content{
+    position:fixed;
+    margin-left:200px;
+ }
+  .slidebar{
+
+    padding-top: 50px;
+    vertical-align: middle !important;
+    list-style: none;
+    text-align:right;
+    width:190px;
+    height:80px;
+    background: rgb(39, 38, 38);
+    margin-top:45px;
+    margin-left:-100px; /* 让侧边栏在屏幕外部 */
+    transition: margin-left 0.5s; /* 让margin-left有一个过渡效果,看实际情况，如果用了定位，也可以控制定位的left 值 */
+  }
+  
+  .slidebar:hover { 
+    margin-left:0px; /* 鼠标经过按钮的时候，让侧边栏回到原来的位置*/
+  }
+  
+  .box {
+    margin-left:170px;
+   
+    width: 1200px;
+    height: 750px;
+    
+    border: 1px solid #000;
+    
+    
+   }
+   
+   
+   
+.img1 {position: absolute;top: 350px; right: 80px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.img2 {position: absolute;top: 1000px; right: 50px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.img3 {position: absolute;top: 1000px; left: 600px; width: 411px; height: 450px; display: none;border: 1px solid #ccc;}
+.hotspot1:hover + .img1 {display: block;}
+.hotspot2:hover + .img2 {display: block;}
+.hotspot3:hover + .img3 {display: block;}
+   
