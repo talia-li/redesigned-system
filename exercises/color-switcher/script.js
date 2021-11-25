@@ -26,12 +26,16 @@ function turnWhite() {
 }
 
 function turnBlue() {
+    let heading = document.querySelector("h1");
+    heading.style.color="white";
   console.log("blue button");
   body.style.backgroundColor = "blue";
   // body.classList.add("blue-theme");
 }
 
 function turnYellow() {
+    let heading = document.querySelector("h1");
+    heading.style.color="white";
   console.log("yellow button");
   body.style.backgroundColor = "yellow";
   // body.classList.add("yellow-theme");
