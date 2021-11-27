@@ -1,1 +1,3 @@
-document.getElementById("library").style.backgroundColor = "lightblue";
+document.getElementById("housing").style.textDecoration = "underline";
+document.getElementById("about").style.textDecoration = "underline";
+

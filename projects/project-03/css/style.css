@@ -32,7 +32,7 @@ html,body{height:100%; width:100%
 }
 ul li{
     
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family:'Sporting Grotesque_Bold',monospace;
     text-decoration:none;
     padding: 0px;
@@ -44,7 +44,6 @@ ul{
     position: fixed;
 }
   .content{
-    font-family:'Sporting Grotesque_Regular',monospace;
     position:fixed;
     margin-left:300px;
     margin-top:100px;
@@ -59,23 +58,28 @@ ul{
     text-align:center;
     width:290px;
     height:25%;
-    background: rgb(39, 38, 38);
-    margin-top:0;
+    background: rgb(255, 255, 255);
+    margin-top:10px;
+    border-style:dashed;
+
     margin-left:-100px; /* 让侧边栏在屏幕外部 */
     transition: margin-left 0.5s; /* 让margin-left有一个过渡效果,看实际情况，如果用了定位，也可以控制定位的left 值 */
   }
   
   .slidebar:hover { 
     margin-left:0px; /* 鼠标经过按钮的时候，让侧边栏回到原来的位置*/
+
   }
   
   .box {
     float: right;
     
     width: 88%;
-    height: 95%;
+    height: 1000px;
     
-    border: 1px solid #000;
+    border: 2px dashed #000;
+    padding:100px;
+  
     
     
    }
