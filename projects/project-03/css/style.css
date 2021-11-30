@@ -83,8 +83,8 @@ ul{
     position:absolute; 
     top:5%;
     left:24%;
-    width: 65%;
-    height: 85%;   
+    width: 1100px;
+    height: 850px;   
     border: 3px dashed #000;
    }
    .box1 {
@@ -140,7 +140,11 @@ ul{
   left: 30%;
   cursor: move;
   border: 2px dashed #000;
+  font-family:'Sporting Grotesque_Bold',monospace;
+  text-align:justify
+
 }
+
 #box2  {
   color: rgb(3, 3, 3);
   width: 200px;
@@ -154,9 +158,11 @@ ul{
   box-sizing: border-box;
   position: absolute;
   top: 200px;
-  left: 30%;
+  left: 32%;
   cursor: move;
   border: 2px dashed #000;
+  font-family:'Sporting Grotesque_Bold',monospace;
+    text-align:justify
 }
 #box3  {
   color: rgb(5, 5, 5);
@@ -174,12 +180,15 @@ ul{
   left: 30%;
   cursor: move;
   border: 2px dashed #000;
+  font-family:'Sporting Grotesque_Bold',monospace;
+  text-align:justify
+
 }
 
 #box4  {
   color: rgb(5, 5, 5);
   width: 400px;
-  height: 300px;
+  height: 450px;
   background-color: #fcfdfc;
   display: none;
   flex-direction: column;
@@ -196,7 +205,7 @@ ul{
 #box5  {
   color: rgb(5, 5, 5);
   width: 400px;
-  height: 300px;
+  height: 450px;
   background-color: #fcfdfc;
   display: none;
   flex-direction: column;
@@ -213,7 +222,7 @@ ul{
 #box6  {
   color: rgb(5, 5, 5);
   width: 400px;
-  height: 300px;
+  height: 450px;
   background-color: #fcfdfc;
   display: none;
   flex-direction: column;
