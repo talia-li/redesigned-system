@@ -4,40 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <title>Nature Mediums</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div>
+  <div id = "menu">
     <ul>
       <li class="slidebar"  onclick="location.href='index.html'">about</li>
-		  <li class="slidebar" id=park onclick="location.href='park.html'">a park</li>
+		  <li class="slidebar" id = "active"  onclick="location.href='park.html'">a park</li>
 		  <li class="slidebar"  onclick="location.href='housing.html'">a housing</li>
 		  <li class="slidebar"  onclick="location.href='library.html'">a library</li>
     </ul>
     </div>
 	
     <div class="box">
-        <img src="./figures/PLAN-01.jpeg" width="100%" height="100%" usemap="#Map">
-          <map name="Map">
-   
-              <area class="hotspot1" shape="rect" coords="950,555,1280,800" href="#">
-              <img class="img1" src="./figures/Amphitheater_Final-01.jpeg">
-     
-              <area class="hotspot2" shape="rect" coords="1890,900,2333,1234"  href="#">
-              <img class="img2" src="./figures/Pergola_Final-01.jpeg">
-     
-              <area class="hotspot3" shape="rect" coords="1064,1216,1383,1461" href="#">
-              <img class="img3" src="./figures/EXCAVATION.jpeg">
-     
-            </map> 
+        <img src="./figures/PLAN-01.jpeg" width="100%" height="100%">
+        <div class="box1" type="button" id="open1"></div>
+        <div class="box2" type="button" id="open2"></div>
+        <div class="box3" type="button" id="open3"></div>
+        <p>This is a park designed by talia. Click the rectangle areas.</p>
       </div>
-  <script src="script.js"></script>
+      <div id="container">
+        <div id="box1">
+            <span id="close1">x</span>
+            <span>NO1</span>
+        </div>
+        <div id="box2">
+            <strong id="close2">x</strong>
+            <span>NO2</span>
+        </div>
+        <div id="box3">
+            <strong id="close3">x</strong>
+            <span>NO3</span>
+        </div>
+        <div id="box4">
+            <span id="close4">x</span>
+            <img src="./figures/1.jpeg" width="100%" height="100%">
+            
+        </div>
+        <div id="box5">
+            <strong id="close5">x</strong>
+            <img src="./figures/2.jpeg" width="100%" height="100%">
+        </div>
+        <div id="box6">
+            <strong id="close6">x</strong>
+            <img src="./figures/3.jpeg" width="100%" height="100%">
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="park.js"></script>
 </body>
 
 </html>
