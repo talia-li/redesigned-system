@@ -73,7 +73,7 @@ ul{
 
   }
   #active {
-    background-color: rgb(216, 216, 216);
+    text-decoration:underline;
   }
 
 
